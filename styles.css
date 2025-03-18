@@ -132,7 +132,7 @@ input{
     padding: 50px; 
     position: absolute;  
     top: 10px;
-    left: 100px;
+    
     
 }
 .carousel-caption h2{
@@ -328,6 +328,7 @@ footer .lang{
         
 }
 .accordion-button{
+
     background-color:#414141;
     padding: 15px;
     color: #FFFFFF;
@@ -644,17 +645,20 @@ footer .lang{
     .sect-text{
         left: 100px;
     }
+    .contain{
+    
+        visibility: hidden;
+    }
+    .fa-tv{
+        visibility: hidden;
+    }
+
  }
 @media(max-width:415px){
     .cards{
         width: 200px;
     }
-    .contain{
-        left:150px;
-    }
-    .fa-tv{
-        left:150px;
-    }
+    
     .box-head{
         left: 50px;
         top: 10px;
@@ -679,7 +683,7 @@ footer .lang{
 @media(max-width:392px){
     .email-sect{
         padding: 10px 10px;
-        left: 50px;
+        left: 20px;
         top: 430px;
     }
     .foot-box{
